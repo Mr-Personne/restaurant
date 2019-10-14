@@ -12,3 +12,71 @@ body{
     max-width: 1170px;
     margin: 0 auto;
 }
+/*partie aurelie*/
+.container-fluid{
+    border-top:6px solid #76c38f;
+}
+
+.text-upper{
+    text-transform: uppercase;
+}
+
+.text-color-white{
+    color: var(--white);
+}
+
+/*système link, a:fghjj sont des pseudo class */
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color: white;
+    min-width: 82px;
+    text-align: center;
+}
+
+/*système liste */
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul > li{
+    min-width: 110px;
+    text-align: center;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+ul > li.active {
+    border: 2px solid #76c38f;
+}
+
+ul > li.active > a, ul.portfolio-nav > li.active >a{
+    color:  white;
+}
+
+ul.portfolio-nav > li > a{
+    font-weight: bold;
+}
+
+/*section header */
+header{
+    background-color: white;
+    background-blend-mode:  luminosity;
+    background-position: center;
+    background-size: cover;
+}
+.header-row{
+    background-color:#290000;
+    font-size: 1em;
+}
+
+.header-row-quote{
+    
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.header-quote-cite{
+    background-color:#290000;
+    font-size: 1.2em;
+}
