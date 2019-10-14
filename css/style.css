@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+}
+.container-fluid, .row{
+    width: 100%;
+    margin: 0;
+}
+
+
+.container{
+    width: 80%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+
+.col{
+    margin: 0;
+    padding: 15px;
+    width: 225px;
+    text-align: center;
+}
+
+
+.d-flex{
+    display: flex;
+}
+
+.f-justify-content-between{
+    justify-content: space-between;
+}
+
+.f-direction-column{
+    flex-direction: column;
+    
+}
+
+.f-align-center{
+    align-items: center;
+}
+
+
+.bg-color-red{
+    background-color: #660000;
+}
+.bg-color-white{
+    background-color: #ffffff;
+}
+
+
+
+
+
+h3{
+    margin: 0;
+    font-size: 30px;
+    
+}
+
+.services-box-photo{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+.services-bg-photo1{
+    background-image: url(../media/road-4450611_1920.jpg)
+}
