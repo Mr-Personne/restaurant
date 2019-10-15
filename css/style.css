@@ -216,6 +216,7 @@ h3{
 .col-services:hover{
     background-color: #76c38f;
     color: #ffffff;
+    cursor: pointer;
 }
 
 
@@ -252,7 +253,7 @@ h3{
     border-radius: 7px;
 }
 .line{
-    border-top: #303030 2px solid;
+    border-top: #303030 3px solid;
     width: 50%; 
 }
 
@@ -265,16 +266,35 @@ h3{
 .latestwork-box-photo{
     width: 290px;
     height: 190px;
-    margin: 5px;
+    margin: 25px 5px;
     background-position: center;
     background-size: cover;
     border: #ffffff 6px solid;
 }
 .latestwork-box-photo:hover{
     border: #76c38f 6px solid;
-    margin: 5px;
+    margin: 25px 5px;
+    cursor: pointer;
 }
+.latestwork-box-photo:hover p{
+    display: none;
+}
+
 
 .latestwork-photo{
     background-image: url(../media/asia-4466113_1920.jpg)
+}
+
+.d-flex-lw{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hidden{
+    background-color: #303030;
+    color: #ffffff;
+    margin: 0;
+    width: 290px;
+    text-align: center;
+    padding:5px;
 }
