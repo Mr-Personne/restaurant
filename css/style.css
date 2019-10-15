@@ -23,6 +23,23 @@ body{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* systeme flex */
+
+
 .d-flex{
     display: flex;
 }
@@ -41,6 +58,11 @@ body{
 }
 
 
+
+
+
+
+/* system color */
 .bg-color-red{
     background-color: #660000;
 }
@@ -51,12 +73,16 @@ body{
 
 
 
+/* partie services */
+
+
 
 h3{
     margin: 0;
     font-size: 30px;
     
 }
+
 
 .services-box-photo{
     width: 120px;
@@ -68,4 +94,9 @@ h3{
 
 .services-bg-photo1{
     background-image: url(../media/road-4450611_1920.jpg)
+}
+
+.col:hover{
+    background-color: #76c38f;
+    color: #ffffff;
 }
