@@ -59,7 +59,7 @@ ul.portfolio-nav > li > a{
     font-weight: bold;
 }
 
-/*section header */
+/*section header*/
 header{
     background-color: white;
     background-blend-mode:  luminosity;
@@ -84,11 +84,32 @@ header{
 
 
 /*--------------------------section sacha slider start-----------------------------------*/
-/*systeme de col*/
+
+/*---------------------------system couleur start---------------------------------------*/
+.slider-bg-color{
+    background-color: #290000;
+}
+
+.slider-text-white{
+    color: white;
+}
+
+.slider-text-grey{
+    color: #979797;
+}
+
+.slider-bg-bluegreen{
+    background-color: #76c38f;
+}
+/* ----------------------systeme couleur end -----------------*/
+
+
 .slide1 .slider-col{
     width: 50%;
 }
 
+
+/*------------------system flex slide start--------------------------*/
 .slider-d-flex{
     display: flex;
     flex-wrap: nowrap;
@@ -99,10 +120,28 @@ header{
     flex-wrap: wrap;
 }
 
+.align-center{
+    align-items: center;
+}
+/*--------------------system flex slide end-----------------------*/
+
+/*-------------------------system taille text start------------------*/
+.slider-title{
+    font-size: 40px;
+}
+
+.slider-text{
+    font-size: 20px;
+}
+
+.slider-button-text{
+    font-size: 25px;
+}
+/* ------------------systeme taille text end -------------------------*/
+
 
 .slides-container {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 40px;
 }
 
 
@@ -110,18 +149,85 @@ header{
     display: none;
 }
 
-.slide-img{
-    background-image: url("C:/Users/stagiaire acs/Documents/vm/restaurant/rootprojet/media/wine-img.jpg");
-    /* border: 30px solid #6b6b6b;
+/*------------section image slider start------------------*/
+.slide-img1{
+    /*les deux points permettent de revenir en arriere en terme de dossier*/
+    background-color: lightgrey;
+    background-image: url("../media/wine-img.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 30px solid #6b6b6b;
     border-radius: 50%;
-    width: 380px;
+    max-width: 380px;
     height: 380px;
-    color: white; */
+    color: white;
+    margin: 0 auto;
 }
+
+.slide-img2{
+    /*les deux points permettent de revenir en arriere en terme de dossier*/
+    background-color: lightgrey;
+    background-image: url("../media/wine-img.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 30px solid #6b6b6b;
+    border-radius: 50%;
+    max-width: 380px;
+    height: 380px;
+    color: white;
+    margin: 0 auto;
+}
+
+.slide-img3{
+    /*les deux points permettent de revenir en arriere en terme de dossier*/
+    background-color: lightgrey;
+    background-image: url("../media/wine-img.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 30px solid #6b6b6b;
+    border-radius: 50%;
+    max-width: 380px;
+    height: 380px;
+    color: white;
+    margin: 0 auto;
+}
+
+/* .slider-col .slide-img{
+} */
+
+/*--------------section image slider end--------------*/
 
 #left-button-col, #right-button-col{
     align-self: center;
 }
+
+/*------------------------button style section start------------------*/
+.read-more-button{
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#left-button{
+    /* background-image: url("../media/arrow-left.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%; */
+    cursor: pointer;
+}
+
+#right-button{
+    /* background-image: url("../media/arrow-right.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%; */
+    cursor: pointer;
+}
+
+/*--------------button style section end--------------*/
 
 
 /*--------------------------section sacha slider start-----------------------------------*/
