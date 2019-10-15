@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+    <script src="slider.js"></script>
     <title>Document</title>
 </head>
 
@@ -35,34 +36,93 @@
         </header>
 
 
-        <!--c'est la partie de sacha-->
-        <div class="container-fluid">
-            <div class="container">
 
-                <div class="row slider-d-flex">
-                    <div class="col">
-                        <button>left</button>
+    <!--c'est la partie de sacha-->
+    <div class="container-fluid slider-bg-color">
+        <div class="container">
+
+            <div class="row slider-d-flex">
+                <div id="left-button-col" class="slider-col">
+                    <p id="left-button" onclick="test()"><img src="media/arrow-left.png" alt="left slider arrow"
+                            width="18px" height="30px"></p>
+                </div>
+
+
+
+                <!-- all slides container -->
+                <div class="slides-container">
+
+                    <!-- slide 1 principal start-->
+                    <div class="slide1 inner-slide-d-flex align-center">
+                        <div class="slider-col">
+                            <h2 class="slider-text-white slider-title">Cursus penati saccum nulla.</h2>
+                            <p class="slider-text-grey slider-text">Nullamlacus dui ipsum conseque loborttis non euisque
+                                morbi penas dapibulum orna.
+                                Urnaultrices
+                                quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat
+                                adipiscinia pellentum leo.</p>
+                            <button
+                                class="read-more-button slider-text-white slider-bg-bluegreen slider-button-text">Read
+                                More Here »</button>
+                        </div>
+                        <div class="slider-col">
+                            <p class="slide-img1"></p>
+                        </div>
                     </div>
-                    <div class="col">
-                        <h2>Cursus penati saccum nulla.</h2>
-                        <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices
-                            quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat
-                            adipiscinia pellentum leo.</p>
-                        <button>Read More Here »</button>
+                    <!-- slide 1 principal end -->
+
+                    <!-- slide 2 principal start-->
+                    <div class="slide2 inner-slide-d-flex">
+                        <div class="slider-col">
+                            <h2 class="slider-text-white slider-title">Saccum nulla cursus penati.</h2>
+                            <p class="slider-text-grey slider-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Molestiae illo nesciunt eaque
+                                explicabo, quia fugiat aperiam asperiores cupiditate eius, modi, minus aliquid odio
+                                natus
+                                voluptate eveniet quos beatae quibusdam debitis?</p>
+                            <button
+                                class="read-more-button slider-text-white slider-bg-bluegreen slider-button-text">Read
+                                More Here »</button>
+                        </div>
+                        <div class="slider-col">
+                            <p class="slide-img2"></p>
+                        </div>
                     </div>
-                    <div class="col">
-                        <p>380x380px</p>
+                    <!-- slide 2 principal end -->
+
+                    <!-- slide 3 principal start-->
+                    <div class="slide3 inner-slide-d-flex">
+                        <div class="slider-col">
+                            <h2 class="slider-text-white slider-title">Penati saccum nulla cursus .</h2>
+                            <p class="slider-text-grey slider-text">Congue magnis vestibulum quismodo nulla et feugiat
+                                adipiscinia pellentum leo nullamlacus dui ipsum conseque loborttis non euisque morbi
+                                penas
+                                dapibulum orna. Urnaultrices
+                                quis curabitur phasellentesque .</p>
+                            <button
+                                class="read-more-button slider-text-white  slider-bg-bluegreen slider-button-text">Read
+                                More Here »</button>
+                        </div>
+                        <div class="slider-col">
+                            <p class="slide-img3"></p>
+                        </div>
                     </div>
-                    <div class="col">
-                        <button>right</button>
-                    </div>
+                    <!-- slide 3 principal end -->
 
                 </div>
+                <!-- all slides container end-->
+
+
+
+                <div id="right-button-col" class="slider-col">
+                    <p id="right-button" onclick="test()"><img src="media/arrow-right.png" alt="right slider arrow"
+                            width="18px" height="30px"></p>
+                </div>
+
             </div>
         </div>
-        <!--fin partie de sacha-->
-
-        <!-- partie florent -->
+    </div>
+    <!--fin partie de sacha-->
 
     <main>
         <div class="container-fluid bg-color-red">
