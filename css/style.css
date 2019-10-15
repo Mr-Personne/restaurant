@@ -45,6 +45,9 @@ a:link, a:visited, a:active{
     min-width: 82px;
     text-align: center;
 }
+    /* padding: 40px 0; */
+
+
 
 .col{
     margin: 0;
@@ -52,13 +55,16 @@ a:link, a:visited, a:active{
 }
 
 /*système fexbox */
+    /* width: 225px; */
+    /* text-align: center; */
+
+
+
 .d-flex{
     display: flex;
 }
+ 
 
-.d-inline-flex{
-    display: inline-flex;
-}
 
 .f-justify-content-between{
     justify-content: space-between;
@@ -150,4 +156,34 @@ header{
 /*section slider*/
 .slider-d-flex{
     display: flex;
+}
+
+
+.bg-color-red{
+    background-color: #660000;
+}
+.bg-color-white{
+    background-color: #ffffff;
+}
+
+
+
+
+
+h3{
+    margin: 0;
+    font-size: 30px;
+    
+}
+
+.services-box-photo{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+.services-bg-photo1{
+    background-image: url(../media/road-4450611_1920.jpg)
 }
