@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .container-fluid, .row{
@@ -82,7 +83,45 @@ header{
 }
 
 
-/*section slider*/
+/*--------------------------section sacha slider start-----------------------------------*/
+/*systeme de col*/
+.slide1 .slider-col{
+    width: 50%;
+}
+
 .slider-d-flex{
     display: flex;
+    flex-wrap: nowrap;
 }
+
+.inner-slide-d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.slides-container {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.slide2, .slide3{
+    display: none;
+}
+
+.slide-img{
+    background-image: url("C:/Users/stagiaire acs/Documents/vm/restaurant/rootprojet/media/wine-img.jpg");
+    /* border: 30px solid #6b6b6b;
+    border-radius: 50%;
+    width: 380px;
+    height: 380px;
+    color: white; */
+}
+
+#left-button-col, #right-button-col{
+    align-self: center;
+}
+
+
+/*--------------------------section sacha slider start-----------------------------------*/
