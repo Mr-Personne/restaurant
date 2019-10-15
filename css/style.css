@@ -13,7 +13,8 @@ body{
     margin: 0 auto;
 }
 /*partie aurelie*/
-.container-fluid{
+
+.border-top{
     border-top:6px solid #76c38f;
 }
 
@@ -22,7 +23,7 @@ body{
 }
 
 .text-color-white{
-    color: var(--white);
+    color: white;
 }
 
 /*système link, a:fghjj sont des pseudo class */
@@ -79,4 +80,10 @@ header{
 .header-quote-cite{
     background-color:#290000;
     font-size: 1.2em;
+}
+
+
+/*section slider*/
+.slider-d-flex{
+    display: flex;
 }
