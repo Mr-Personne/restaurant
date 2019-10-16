@@ -4,192 +4,31 @@ body{
     margin: 0;
 }
 
-.container-fluid, .row{
-    width: 100%;
+/* partie franck */
+
+/* footer */
+.container-fluid{
+    width:100%;
     margin: 0;
 }
 
 .container{
-    width: 80%;
-    max-width: 1170px;
-    margin: 0 auto;
+    width:80%;
+
 }
-/*partie aurelie*/
-
-.border-top{
-    border-top:6px solid #76c38f;
-}
-
-.p-reset{
-    margin: 0;
-    color: white;
-    font-size: 30px;
-}
-
-.text-color-white{
-    color: white;
-}
-.p-reset1{
-    margin: 0;
-    font-family: rokkitt;
-    color: #979797;
-    font-size: 13px;
-}
-   
-
-
-/*système link, a:fghjj sont des pseudo class */
-a:link, a:visited, a:active{
-    text-decoration: none;
-    color: white;
-    min-width: 82px;
-    text-align: center;
-}
-    /* padding: 40px 0; */
-
-
-
-.col{
-    margin: 0;
-    padding: 15px;
-}
-
-/*système fexbox */
-    /* width: 225px; */
-    /* text-align: center; */
-
-
 
 .d-flex{
-    display: flex;
+    display:flex;
 }
- 
-
 .f-justify-content-between{
-    justify-content: space-between;
+justify-content: space-between;
 }
 
-.f-justify-content-center{
-    justify-content: center;
-}
-
-.f-align-items-center{
-    align-items: center;
-}
-
-.f-column{
-    flex-direction: column;
-}
-
-.f-wrap{
-    flex-wrap: wrap;
-}
-
-/*systèmemargin et padding */
-.m-o{
-    margin: 0;
-}
-
-.mb-1{
-    margin-bottom: 1rem;
-}
-
-.p-1{
-    padding: 0.50rem;
+.col{
+width:25%;
 }
 
 
-/*système liste */
-ul{
-    list-style: none;
-    padding: 0;
-}
-
-ul > li{
-    min-width: 110px;
-    text-align: center;
-    padding: 8px;
-    box-sizing: border-box;
-    text-transform: uppercase;
-}
-
-ul > li.active {
-    border: 2px solid #76c38f;
-    background-color: #76c38f;
-    border-radius: 14px;
-}
-
-ul > li.active > a, ul.portfolio-nav > li.active >a{
-    color:  white;
-    font-family: rokkitt;
-}
-
-ul.portfolio-nav > li > a{
-    font-weight: bold;
-}
-
-/*section header */
-header{
-    background-color: white;
-    background-blend-mode:  luminosity;
-    background-position: center;
-    background-size: cover;
-}
-.header-row{
-    background-color:#290000;
-    font-size: 1em;
-}
-
-.header-row-quote{
-    
-    padding-top: 250px;
-    padding-bottom: 250px;
-}
-
-.header-quote-cite{
-    background-color:#290000;
-    font-size: 1.2em;
-}
-
-
-/*section slider*/
-.slider-d-flex{
-    display: flex;
-}
-
-
-.bg-color-red{
-    background-color: #660000;
-}
-.bg-color-white{
-    background-color: #ffffff;
-}
-
-
-
-
-
-h3{
-    margin: 0;
-    font-size: 30px;
-    
-}
-
-.services-box-photo{
-    width: 120px;
-    height: 120px;
-    margin-bottom: 15px;
-    background-position: center;
-    background-size: cover;
-}
-
-.services-bg-photo1{
-    background-image: url(../media/road-4450611_1920.jpg)
-}
-
-/* partie franck */
-
-/* footer */
 .bg-grey{
     background-color: #424242;
 
@@ -222,10 +61,9 @@ input [type=radio] {
 }
 
 input [type=submit],input [type=reset] {
-    width:100px;
-    margin-left:5px;
-    box-shadow: 1px 1px 1px #222222;
-    cursor: pointer;
+    border:2px solid #76c38f;
+    color: #76c38f;
+    border-radius: 14px;
 }
 
 
@@ -236,3 +74,23 @@ input [type=submit],input [type=reset] {
 .bg-grey2{
     background-color: #424242;
 }
+
+.f-justify-content-between{
+    justify-content: space-between;
+}
+
+.f-justify-content-around{
+    justify-content: space-around;
+}
+
+span.post-title{
+    color:#76c38f;
+}
+
+span.admin{
+    color:#76c38f;
+}
+
+span.admin{
+    color:#76c38f;
+}    
