@@ -172,7 +172,7 @@ header{
 .slide-img2{
     /*les deux points permettent de revenir en arriere en terme de dossier*/
     background-color: lightgrey;
-    background-image: url("../media/wine-img.jpg");
+    background-image: url("../media/fish-img.jpg");
     background-size: cover;
     background-position: center;
     border: 30px solid #6b6b6b;
@@ -186,7 +186,7 @@ header{
 .slide-img3{
     /*les deux points permettent de revenir en arriere en terme de dossier*/
     background-color: lightgrey;
-    background-image: url("../media/wine-img.jpg");
+    background-image: url("../media/pizza-img.jpg");
     background-size: cover;
     background-position: center;
     border: 30px solid #6b6b6b;
@@ -233,6 +233,27 @@ header{
 }
 
 /*--------------button style section end--------------*/
+
+
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .1} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .1} 
+    to {opacity: 1}
+  }
+  
 
 
 /*--------------------------section sacha slider start-----------------------------------*/
