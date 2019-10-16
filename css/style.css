@@ -14,18 +14,16 @@ body{
 
 .container{
     width:80%;
-
+margin:0 auto;
 }
 
 .d-flex{
     display:flex;
 }
-.f-justify-content-between{
-justify-content: space-between;
-}
 
 .col{
-width:25%;
+width:20%;
+padding-right:25px;
 }
 
 
@@ -83,14 +81,34 @@ input [type=submit],input [type=reset] {
     justify-content: space-around;
 }
 
+span.from-the-blog{
+    color: #ffffff;
+}
+
+span.quick-links{
+    color: #ffffff;
+}
+span.Latest-Tweets{
+    color: #ffffff;
+}
+
+span.Contact-US {
+    color: #ffffff;
+}
+
+
 span.post-title{
     color:#76c38f;
 }
 
-span.admin{
+span.Admin{
     color:#76c38f;
 }
 
-span.admin{
-    color:#76c38f;
-}    
+.p-color{
+    color: #979797;
+}
+
+.namehere{
+color:#76c38f;
+}
