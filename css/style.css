@@ -190,7 +190,12 @@ header{
 .slide1 .slider-col{
     width: 50%;
 }
-
+.slide2 .slider-col{
+    width: 50%;
+}
+.slide3 .slider-col{
+    width: 50%;
+}
 
 /*------------------system flex slide start--------------------------*/
 .slider-d-flex{
