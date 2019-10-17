@@ -127,13 +127,13 @@ ul > li{
     text-transform: uppercase;
 }
 
-ul > li.active {
+.active{
     border: 2px solid #76c38f;
     background-color: #76c38f;
     border-radius: 14px;
 }
 
-ul > li.active > a, ul.portfolio-nav > li.active >a{
+ul > li.active > a, ul.portfolio-nav{
     color:  white;
     font-family: rokkitt;
 }
