@@ -52,4 +52,3 @@ function verifSubject(champ)
     }
 }
 
-function verifMessage(champ)
