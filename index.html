@@ -243,34 +243,29 @@
                     <p class="border-bottom">» Aliquam eget erat nec sapien</p>
                     <p class="border-bottom">» Cras id augue nunc</p>
                     <p class="border-bottom">» Sed a nulla urna</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-footer">
-                <h4 class="color-white">Latest Tweets</h4>
-                <p><span class="color-green c-pointer">@namehere</span> Justoid nonummy laoreet phasellent penatoque in
-                    antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoremut vitae doloreet 1
-                    day ago</p>
-                <p><span class="color-green c-pointer">@namehere</span> Justoid nonummy laoreet phasellent penatoque in
-                    antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoremut vitae doloreet 1
-                    day ago</p>
-            </div>
-            <div class="col-footer">
-                <h4 class="color-white">Contact Us</h4>
-                <form action="/action_page.php">
-
-                    <input class="textarea" type="text" name="firstname" value="" placeholder="Full Name"
-                        onblur="verifPseudo(this)">
-                    <br>
-                    <input class="textarea" type="text" name="email" value="" placeholder="Email Address"
-                        onblur="verifMail(this)">
-                    <br>
-                    <input class="textarea" type="text" name="subject" value="" placeholder="Subject"
-                        onblur="verifSubject(this)">
-                    <br>
-                    <input class="textarea" type="text" name="message" value="" placeholder="Message">
-                    <br>
-                    <input class="button" type="submit" value="Submit">
-                </form>
+                <div class="col-footer">
+                    <h4 class="color-white">Latest Tweets</h4>
+                    <p><span class="color-green c-pointer">@namehere</span> Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoremut vitae doloreet 1 day ago</p>
+                    <p><span class="color-green c-pointer">@namehere</span> Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoremut vitae doloreet 1 day ago</p>
+                </div>
+                <div class="col-footer">
+                    <h4 class="color-white">Contact Us</h4>
+                    <form method="post" action="#" onsubmit="return verifForm(this)">
+                        
+                    
+                        <input id="pseudo" class="text" type="text" name="firstname" value="" placeholder="Full Name" onblur="verifPseudo(this)">
+                        <br>
+                        <input id="email" class="text" type="text" name="email" value="" placeholder="Email Address" onblur="verifMail(this)">
+                        <br>
+                        <input id="subject" class="text" type="text" name="subject" value="" placeholder="Subject" onblur="verifSubject(this)">
+                        <br>
+                        <textarea id="message" name="message" id="" cols="30" rows="4" placeholder="Message" onblur="verifMessage(this)"></textarea>
+                        <input class="button" type="submit" value="Submit">
+                      </form> 
+                      
+                
 
                 <script src="footer.js"></script>
                 <script src="slider.js"></script>
