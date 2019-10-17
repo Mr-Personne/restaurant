@@ -499,6 +499,13 @@ h3{
 }
 /* section footer */
 
+
+.container-contact{
+    width: 80%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
 .col-footer{
     width: 23%;
 }
@@ -537,8 +544,9 @@ textarea{
     border-radius: 14px;
     padding: 10px 20px;
     font-weight: bold;
-    outline: none; 
+    outline: none;
+    text-transform: uppercase;   
 }
-}
+
     
 
