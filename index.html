@@ -40,18 +40,19 @@
                 </div>
                 <div class="col-footer">
                     <h4 class="color-white">Contact Us</h4>
-                    <form action="/action_page.php">
+                    <form method="post" action="#" onsubmit="return verifForm(this)">
+                        
                     
-                        <input class="textarea" type="text" name="firstname" value="" placeholder="Full Name" onblur="verifPseudo(this)">
+                        <input id="pseudo" class="text" type="text" name="firstname" value="" placeholder="Full Name" onblur="verifPseudo(this)">
                         <br>
-                        <input class="textarea" type="text" name="email" value="" placeholder="Email Address" onblur="verifMail(this)">
+                        <input id="email" class="text" type="text" name="email" value="" placeholder="Email Address" onblur="verifMail(this)">
                         <br>
-                        <input class="textarea" type="text" name="subject" value="" placeholder="Subject" onblur="verifSubject(this)">
+                        <input id="subject" class="text" type="text" name="subject" value="" placeholder="Subject" onblur="verifSubject(this)">
                         <br>
-                        <input class="textarea" type="text" name="message" value="" placeholder="Message">
-                        <br>
+                        <textarea id="message" name="message" id="" cols="30" rows="4" placeholder="Message" onblur="verifMessage(this)"></textarea>
                         <input class="button" type="submit" value="Submit">
                       </form> 
+                      
                 </div>
             </div>
         </div>

@@ -503,11 +503,7 @@ h3{
     width: 23%;
 }
 
-.textarea{
-    width: 100%;
-    
-}
-input[type=text]{
+.text{
     padding: 12px 20px;
     margin: 8px 0px;
     box-sizing: border-box;
@@ -515,7 +511,24 @@ input[type=text]{
     border: none;
     color: white;
     border-radius: 14px;
+    outline: none; 
+    width: 100%;
+    
 }
+textarea{
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    background-color: #222222;
+    border: none;
+    color: white;
+    border-radius: 14px;
+    outline: none; 
+    width: 100%;
+    resize: none;
+
+}
+    
 
 .button{
     background-color: #76c38f;
@@ -524,4 +537,6 @@ input[type=text]{
     border-radius: 14px;
     padding: 10px 20px;
     font-weight: bold;
+    outline: none; 
 }
+
