@@ -7,14 +7,16 @@ body{
 /* partie franck */
 
 /* footer */
-.container-fluid{
+.container-fluid-bg-grey{
     width:100%;
     margin: 0;
+    background-color: #424242;
 }
 
 .container{
     width:80%;
 margin:0 auto;
+max-width: 1170px;
 }
 
 .d-flex{
@@ -22,8 +24,7 @@ margin:0 auto;
 }
 
 .col{
-width:20%;
-padding-right:25px;
+width:23%;
 }
 
 
@@ -47,6 +48,7 @@ label{
     margin-top: 10px;
     display:block;
 }
+
 label.inline{
     display:inline;
     margin-right: 50px;
@@ -58,19 +60,24 @@ input [type=radio] {
     width:10px;
 }
 
-input [type=submit],input [type=reset] {
-    border:2px solid #76c38f;
-    color: #76c38f;
-    border-radius: 14px;
+.boutton-submit {
+    width:100px;
+    background-color: #76c38f;
+    border:none;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 
 #quick-links p{
     color: #76c38f;
+    border-bottom: solid 1px#979797;
 }
 
-.bg-grey2{
-    background-color: #424242;
+.container-fluid-bg-grey2{
+    border-top:solid 1px #222222;
+    background-color: #2b2b2b;
+    border-bottom: solid 1px#979797;
 }
 
 .f-justify-content-between{
@@ -81,34 +88,16 @@ input [type=submit],input [type=reset] {
     justify-content: space-around;
 }
 
-span.from-the-blog{
-    color: #ffffff;
-}
 
-span.quick-links{
-    color: #ffffff;
-}
-span.Latest-Tweets{
-    color: #ffffff;
-}
-
-span.Contact-US {
-    color: #ffffff;
+.color-grey{
+    color:#979797
 }
 
 
-span.post-title{
+.color-green{
     color:#76c38f;
 }
 
-span.Admin{
-    color:#76c38f;
-}
-
-.p-color{
-    color: #979797;
-}
-
-.namehere{
-color:#76c38f;
+.color-yellow{
+    color: #ffffff;
 }
