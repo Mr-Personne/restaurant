@@ -494,8 +494,34 @@ h3{
 .color-green{
     color: #76c38f;
 }
+.color-lightgrey{
+    color: #979797;
+}
 /* section footer */
 
 .col-footer{
     width: 23%;
+}
+
+.textarea{
+    width: 100%;
+    
+}
+input[type=text]{
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    background-color: #222222;
+    border: none;
+    color: white;
+    border-radius: 14px;
+}
+
+.button{
+    background-color: #76c38f;
+    color: #303030;
+    border: none;
+    border-radius: 14px;
+    padding: 10px 20px;
+    font-weight: bold;
 }
