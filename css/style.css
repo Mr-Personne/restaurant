@@ -475,3 +475,160 @@ h3{
     text-align: center;
     padding:5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------MEDIA QUIERIES----------------------------------------------- */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) { 
+    .container{
+        width: 90%;
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+
+
+    .d-flex{
+        display: block;
+    }
+
+    .slides-container {
+        padding: 10px;
+    }
+
+    .inner-slide-d-flex{
+        display: none;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .inner-slide-d-flex:first-child{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    /*---------------------media pour slide1-------------------------------*/
+    .slide1 .slider-col{
+        width: 100%;
+    }
+
+    .slide-img1 {
+        background-color: lightgrey;
+        background-image: url(../media/wine-img.jpg);
+        border: 5px solid #6b6b6b;
+        border-radius: 50%;
+        max-width: 380px;
+        height: 380px;
+        color: white;
+        margin: 0 auto;
+    }
+    /*---------------------media pour slide2-------------------------------*/
+    .slide2 .slider-col{
+        width: 100%;
+    }
+
+    .slide-img2 {
+        background-color: lightgrey;
+        background-image: url(../media/fish-img.jpg);
+        border: 5px solid #6b6b6b;
+        border-radius: 50%;
+        max-width: 380px;
+        height: 380px;
+        color: white;
+        margin: 0 auto;
+    }
+
+    /*---------------------media pour slide3-------------------------------*/
+    .slide3 .slider-col{
+        width: 100%;
+    }
+
+    .slide-img3 {
+        background-color: lightgrey;
+        background-image: url(../media/pizza-img.jpg);
+        border: 5px solid #6b6b6b;
+        border-radius: 50%;
+        max-width: 380px;
+        height: 380px;
+        color: white;
+        margin: 0 auto;
+    }
+    /*---------------------media pour slide fin-------------------------------*/
+
+    .slider-title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .slider-text {
+        font-size: 20px;
+        /* width: 81%; */
+        /* text-align: justify; */
+        margin: 0;
+        /* padding-left: 31px; */
+        line-height: 25px;
+    }
+
+    .read-more-button {
+        margin-top: 38px;
+        border-radius: 10px;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+    }
+
+    .container-services {
+        width: 90%;
+    }
+
+    .col-services {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .services-box-photo {
+        width: 100%;
+        height: 200px;
+    }
+
+    /*section avec ligne et titre "latest work"*/
+    .row.d-flex.f-justify-content-center.f-align-items-center {
+        display: flex;
+    }
+
+    .container-latestwork {
+        width: 90%;
+        display: flex;
+    }
+
+    .latestwork-box-photo {
+        width: 100%;
+        height: 250px;
+        margin: 10px 5px;
+    }
+
+    .hidden {
+        width: 100%;
+    }
+ }
