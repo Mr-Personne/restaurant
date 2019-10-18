@@ -530,7 +530,10 @@ h3{
      nav{
          display: none;
          background-color: #290000;
+         width: 85%;
      }
+
+     /* navi */
 
 
     .d-flex{
