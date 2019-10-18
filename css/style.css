@@ -562,6 +562,11 @@ textarea{
 
 
     /* navbar */
+
+    ul > li{
+        min-width: 0px;
+        padding: 8px 5px;
+    }
     .col{
         padding: 15px 2%;
     }
@@ -620,7 +625,16 @@ textarea{
     }
 
     /* footer */
+
+    .col-footer{
+        width: 30%;
+    }
+    .col-footer:last-child{
+        width: 40%;
+    }
+
     .container-contact{
         width: 95%;
     }
+    
 }
