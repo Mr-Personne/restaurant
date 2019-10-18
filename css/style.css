@@ -592,7 +592,9 @@ textarea{
      nav{
          display: none;
          background-color: #290000;
-         width: 85%;
+         width: 100%;
+         left: 0;
+         height: 100%;
      }
 
      /* navi */
@@ -705,6 +707,10 @@ textarea{
     /*section avec ligne et titre "latest work"*/
     .row.d-flex.f-justify-content-center.f-align-items-center {
         display: flex;
+    }
+
+    .line{
+        display: none;
     }
 
     .container-latestwork {
