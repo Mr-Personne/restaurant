@@ -565,12 +565,6 @@ textarea{
 
 }
 @media (min-width: 576px) and (max-width: 767px){
-.titre-header{
-        font-size: 3em;
-        padding-top: 7%;
-        box-sizing: border-box;
-    }
-
         .menu-responsive{
             display: none;
            list-style-type:none;
