@@ -590,6 +590,11 @@ textarea{
         width: 95%;
     }
 
+    .col-services{
+        width: 45%;
+        margin: 15px;
+    }
+
     h3{
         font-size: 1.2em;
     }
