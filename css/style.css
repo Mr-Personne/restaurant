@@ -599,6 +599,11 @@ textarea{
 
      /* navi */
 
+     .xs-media-flex{
+         display: flex;
+         justify-content: space-between;
+     }
+
 
     .d-flex{
         display: block;
