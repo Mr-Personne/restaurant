@@ -60,22 +60,6 @@ a:link, a:visited, a:active{
     padding: 15px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* systeme flex */
 
 
@@ -552,7 +536,10 @@ textarea{
     outline: none;
     text-transform: uppercase;   
 }
-
+.container-fluid-bg-grey2{
+    background-color: #2b2b2b;
+    border-top:#222222 1px solid;
+}
     
 
 /* media queries */
@@ -567,7 +554,8 @@ textarea{
 @media (min-width: 576px) and (max-width: 767px){
 
 }
-@media (max-width: 575px){
+@media (max-width: 575px)
+{
     .container{
         width: 90%;
         max-width: 1170px;
