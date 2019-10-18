@@ -40,7 +40,7 @@ input,textarea{
     padding:10px;
     border:1px solid #222222;
     border-radius:5px;
-    width:200px;
+    width:245px;
     box-shadow:1px 1px 2px #222222;
 } 
 
@@ -55,13 +55,14 @@ label.inline{
 }
 
 input [type=radio] {
+    width:245px;
     background-color: transparent;
     border:none;
-    width:10px;
+    
 }
 
 .boutton-submit {
-    width:100px;
+    width:30%;
     background-color: #76c38f;
     border:none;
     margin-top: 10px;
@@ -100,4 +101,8 @@ input [type=radio] {
 
 .color-yellow{
     color: #ffffff;
+}
+
+@media (min-width: 1200px) {
+    
 }
