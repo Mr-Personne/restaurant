@@ -5,68 +5,6 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.container-fluid, .row{
-    width: 100%;
-    margin: 0;
-}
-
-.container{
-    width: 80%;
-    max-width: 1170px;
-    margin: 0 auto;
-}
-/*partie aurelie*/
-
-.border-top{
-    border-top:6px solid #76c38f;
-}
-
-.p-reset{
-    margin: 0;
-    color: white;
-    font-size: 30px;
-}
-
-.text-color-white{
-    color: white;
-}
-.p-reset1{
-    margin: 0;
-    font-family: rokkitt;
-    color: #979797;
-    font-size: 13px;
-}
-   
-
-
-/*système link, a:fghjj sont des pseudo class */
-a:link, a:visited, a:active{
-    text-decoration: none;
-    color: white;
-    min-width: 82px;
-    text-align: center;
-}
-    /* padding: 40px 0; */
-
-
-
-.col{
-    margin: 0;
-    padding: 15px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -75,62 +13,52 @@ a:link, a:visited, a:active{
 
 
 .d-flex{
-    display: flex;
-}
- 
-
-.f-justify-content-between{
-    justify-content: space-between;
+    display:flex;
 }
 
-.f-justify-content-center{
-    justify-content: center;
-}
-
-.f-align-items-center{
-    align-items: center;
-}
-
-.f-column{
-    flex-direction: column;
-}
-
-.f-wrap{
-    flex-wrap: wrap;
-}
-
-/*systèmemargin et padding */
-.m-o{
-    margin: 0;
-}
-
-.mb-1{
-    margin-bottom: 1rem;
-}
-
-.p-1{
-    padding: 0.50rem;
+.col{
+width:23%;
 }
 
 
-/*système liste */
-ul{
-    list-style: none;
-    padding: 0;
+.bg-grey{
+    background-color: #424242;
+
+}
+input,textarea{
+    background-color: #222222;
+    
+}
+input,textarea{
+    padding:10px;
+    border:1px solid #222222;
+    border-radius:5px;
+    width:200px;
+    box-shadow:1px 1px 2px #222222;
+} 
+
+label{
+    margin-top: 10px;
+    display:block;
 }
 
-ul > li{
-    min-width: 110px;
-    text-align: center;
-    padding: 8px;
-    box-sizing: border-box;
-    text-transform: uppercase;
+label.inline{
+    display:inline;
+    margin-right: 50px;
+}
+
+input [type=radio] {
+    background-color: transparent;
+    border:none;
+    width:10px;
 }
 
 .active{
     border: 11px solid #76c38f;
     background-color: #76c38f;
-    border-radius: 14px;
+    border:none;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 ul > li.active > a, ul.portfolio-nav{
@@ -138,8 +66,9 @@ ul > li.active > a, ul.portfolio-nav{
     font-family: rokkitt;
 }
 
-ul.portfolio-nav > li > a{
-    font-weight: bold;
+#quick-links p{
+    color: #76c38f;
+    border-bottom: solid 1px#979797;
 }
 
 /*section header*/
@@ -149,22 +78,6 @@ header{
     background-position: center;
     background-size: cover;
 }
-.header-row{
-    background-color:#290000;
-    font-size: 1em;
-}
-
-.header-row-quote{
-    
-    padding-top: 250px;
-    padding-bottom: 250px;
-}
-
-.header-quote-cite{
-    background-color:#290000;
-    font-size: 1.2em;
-}
-
 
 /*--------------------------section sacha slider start-----------------------------------*/
 
@@ -366,8 +279,8 @@ h3{
     background-color: #ffffff;
 }
 
-.services-bg-photo1{
-    background-image: url(../media/road-4450611_1920.jpg)
+.color-green{
+    color:#76c38f;
 }
 
 /* partie franck */
@@ -385,6 +298,24 @@ h3{
     height: 100%; */
     cursor: pointer;
 }
+
+
+/* partie franck */
+
+/* footer */
+.container-fluid-bg-grey{
+    width:100%;
+    margin: 0;
+    background-color: #424242;
+}
+
+.container{
+    width:80%;
+margin:0 auto;
+max-width: 1170px;
+}
+
+
 
 /*--------------button style section end--------------*/
 
