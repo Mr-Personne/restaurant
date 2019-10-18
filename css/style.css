@@ -597,6 +597,11 @@ textarea{
          height: 100%;
      }
 
+     ul > li{
+         padding: 5%;
+         border-bottom: 1px solid rgba(163, 85, 85, 0.5);
+     }
+
      /* navi */
 
      .xs-media-flex{
@@ -623,6 +628,7 @@ textarea{
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        padding-bottom: 35px;
     }
 
     /*---------------------media pour slide1-------------------------------*/
@@ -745,5 +751,18 @@ textarea{
     .col-footer {
         width: 100%;
         padding-top: 20px;
+    }
+
+    footer input.button{
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    form .text{
+        margin: 12px 0;
+    }
+
+    textarea{
+        margin-bottom: 12px;
     }
 }
