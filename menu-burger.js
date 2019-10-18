@@ -1,7 +1,29 @@
 var onOff = 0;
+
+//selectionne et calcule le height de body
+var pageBody = document.querySelector("body");
+var bodyHeight = pageBody.offsetHeight;
+console.log(bodyHeight);
+
+//selectionne et calcule le heignt du header
+var pageHeader = document.querySelector("header");
+var headerHeight = pageHeader.offsetHeight;
+console.log(headerHeight);
+
+//calcule taille restante sans le header pour taille de nav
+var navHeight = bodyHeight - headerHeight;
+console.log(navHeight);
+
+
+
 function openNav(){
     // onOff = 1;
+    
     var navMenu = document.getElementById("navi");
+
+    //applique taille navHeight au css du nav
+    navMenu.style.height = navHeight+"px";
+
     if(onOff == 0){
         navMenu.style.display = "block";
         navMenu.style.position = "absolute";
