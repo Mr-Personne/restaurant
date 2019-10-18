@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-
-
     <!-- meta generales -->
     <meta name="author" content="Aurélie, Sacha, Florent, Franck">
     <meta name="category" content="">
@@ -24,9 +22,10 @@
     <meta name="twitter:card" content="">
     <meta name="twitter:site" content="#">
 
-
-
     <title>Document</title>
+
+    <!-- lien pour icon burger -->
+    <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -35,11 +34,12 @@
         <div class="row header-row">
             <div class="container d-flex f-justify-content-between f-align-items-center">
                 <div class="col">
-                    <p class="text-color-white p-reset">The Modernist</p>
+                    <i class="icon ion-md-menu" id="menu-burger" onclick="openNav()"></i>
+                    <h1 class="text-color-white p-reset">The Modernist</h1>
                     <p class="text-color-white p-reset1">Free PSD Website Template</p>
                 </div>
                 <div class="col">
-                    <nav>
+                    <nav id="navi">
                         <ul class="d-flex text-upper">
                             <li><a class="active" href="home">Home</a></li>
                             <li><a href="styledemo">style demo</a></li>
@@ -56,7 +56,7 @@
 
     <!-- test  -->
     <!--c'est la partie de sacha-->
-    <div class="container-fluid slider-bg-color">
+    <div id="max-slider" class="container-fluid slider-bg-color">
         <div class="container">
 
             <div class="row slider-d-flex">
@@ -111,7 +111,7 @@
                     <!-- slide 3 principal start-->
                     <div class="slide3 inner-slide-d-flex align-center fade">
                         <div class="slider-col">
-                            <h2 class="slider-text-white slider-title">Penati saccum nulla cursus .</h2>
+                            <h2 class="slider-text-white slider-title">Penati saccum nulla cursus.</h2>
                             <p class="slider-text-grey slider-text">Congue magnis vestibulum quismodo nulla et feugiat
                                 adipiscinia pellentum leo nullamlacus dui ipsum conseque loborttis non euisque morbi
                                 penas
@@ -141,6 +141,10 @@
         </div>
     </div>
     <!--fin partie de sacha-->
+
+
+
+
 
     <!-- partie florent -->
 
@@ -243,32 +247,41 @@
                     <p class="border-bottom">» Aliquam eget erat nec sapien</p>
                     <p class="border-bottom">» Cras id augue nunc</p>
                     <p class="border-bottom">» Sed a nulla urna</p>
-                    </div>
                 </div>
-                <div class="col-footer">
-                    <h4 class="color-white">Latest Tweets</h4>
-                    <p><span class="color-green c-pointer">@namehere</span> Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoremut vitae doloreet 1 day ago</p>
-                    <p><span class="color-green c-pointer">@namehere</span> Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoremut vitae doloreet 1 day ago</p>
-                </div>
-                <div class="col-footer">
-                    <h4 class="color-white">Contact Us</h4>
-                    <form method="post" action="#" onsubmit="return verifForm(this)">
-                        
-                    
-                        <input id="pseudo" class="text" type="text" name="firstname" value="" placeholder="Full Name" onblur="verifPseudo(this)">
-                        <br>
-                        <input id="email" class="text" type="text" name="email" value="" placeholder="Email Address" onblur="verifMail(this)">
-                        <br>
-                        <input id="subject" class="text" type="text" name="subject" value="" placeholder="Subject" onblur="verifSubject(this)">
-                        <br>
-                        <textarea id="message" name="message" id="" cols="30" rows="4" placeholder="Message" onblur="verifMessage(this)"></textarea>
-                        <input class="button" type="submit" value="Submit">
-                      </form> 
-                      
-                
+            </div>
+            <div class="col-footer">
+                <h4 class="color-white">Latest Tweets</h4>
+                <p><span class="color-green c-pointer">@namehere</span> Justoid nonummy laoreet phasellent penatoque in
+                    antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoremut vitae doloreet 1
+                    day ago</p>
+                <p><span class="color-green c-pointer">@namehere</span> Justoid nonummy laoreet phasellent penatoque in
+                    antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoremut vitae doloreet 1
+                    day ago</p>
+            </div>
+            <div class="col-footer">
+                <h4 class="color-white">Contact Us</h4>
+                <form method="post" action="#" onsubmit="return verifForm(this)">
+
+
+                    <input id="pseudo" class="text" type="text" name="firstname" value="" placeholder="Full Name"
+                        onblur="verifPseudo(this)">
+                    <br>
+                    <input id="email" class="text" type="text" name="email" value="" placeholder="Email Address"
+                        onblur="verifMail(this)">
+                    <br>
+                    <input id="subject" class="text" type="text" name="subject" value="" placeholder="Subject"
+                        onblur="verifSubject(this)">
+                    <br>
+                    <textarea id="message" name="message" id="" cols="30" rows="4" placeholder="Message"
+                        onblur="verifMessage(this)"></textarea>
+                    <input class="button" type="submit" value="Submit">
+                </form>
+
+
 
                 <script src="footer.js"></script>
                 <script src="slider.js"></script>
+                <script src="menu-burger.js"></script>
 </body>
 
 </html>
