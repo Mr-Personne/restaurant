@@ -732,4 +732,18 @@ textarea{
     .hidden {
         width: 100%;
     }
+
+    /*footer*/
+    .container-fluid.bg-grey {
+        padding-top: 20px;
+    }
+
+    .container-contact {
+        width: 85%;
+    }
+
+    .col-footer {
+        width: 100%;
+        padding-top: 20px;
+    }
 }
