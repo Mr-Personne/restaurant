@@ -643,10 +643,22 @@ textarea{
      nav{
          display: none;
          background-color: #290000;
-         width: 85%;
+         width: 100%;
+         left: 0;
+         height: 100%;
+     }
+
+     ul > li{
+         padding: 5%;
+         border-bottom: 1px solid rgba(163, 85, 85, 0.5);
      }
 
      /* navi */
+
+     .xs-media-flex{
+         display: flex;
+         justify-content: space-between;
+     }
 
 
     .d-flex{
@@ -667,6 +679,7 @@ textarea{
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        padding-bottom: 35px;
     }
 
     /*---------------------media pour slide1-------------------------------*/
@@ -758,6 +771,10 @@ textarea{
         display: flex;
     }
 
+    .line{
+        display: none;
+    }
+
     .container-latestwork {
         width: 90%;
         display: flex;
@@ -771,5 +788,32 @@ textarea{
 
     .hidden {
         width: 100%;
+    }
+
+    /*footer*/
+    .container-fluid.bg-grey {
+        padding-top: 20px;
+    }
+
+    .container-contact {
+        width: 85%;
+    }
+
+    .col-footer {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    footer input.button{
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    form .text{
+        margin: 12px 0;
+    }
+
+    textarea{
+        margin-bottom: 12px;
     }
 }
