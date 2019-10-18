@@ -670,10 +670,6 @@ textarea{
 
     /* navbar */
 
-    ul > li{
-        min-width: 0px;
-        padding: 8px 5px;
-    }
     .col{
         padding: 15px 2%;
     }
@@ -696,13 +692,13 @@ textarea{
         display: none;
         flex-direction: column-reverse;
         align-items: center;
+        padding-bottom: 35px;
     }
 
     .inner-slide-d-flex:first-child{
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        padding-bottom: 35px;
     }
 
     /*---------------------media pour slide1-------------------------------*/
@@ -838,8 +834,18 @@ textarea{
     textarea{
         margin-bottom: 12px;
     }
+
+    .sous-footer p{
+        margin: 0;
+        font-size: 11px;
+        padding-top: 5px;
+    }
+
+    .sous-footer .d-flex{
+        display: flex;
+    }
    
     
 }
-    
+
 
