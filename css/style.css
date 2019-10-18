@@ -551,74 +551,83 @@ textarea{
 }
 @media (min-width: 768px) and (max-width: 991px){   
         /* navbar */
-        .col{
-            padding: 15px 2%;
-        }
-    
-        .header-row{
-            font-size: 12px
-        }
-    
-        .container{
-            width: 95%
-        }
-    
-    
-        /* slider */
-    
-        .inner-slide-d-flex{
-            flex-direction: column-reverse;
-        }
-        .slide1 .slider-col{
-            width: 100%
-        }
-        .slide2 .slider-col{
-            width: 100%
-        }
-        .slide3 .slider-col{
-            width: 100%
-        }
-        
-        /* section services */
-    
-        .container-services{
-            width: 95%;
-        }
-    
-        h3{
-            font-size: 1.2em;
-        }
-    
-        /* section latest work */
-    
-        h2{
-            font-size: 1.4em;
-        }
-    
-        /* section latest work photo */
-    
-        .container-latestwork{
-            justify-content: space-around;
-            width: 95%;
-        }
-        .latestwork-box-photo{
-            margin: 20px 2px;
-        }
-        .latestwork-box-photo:hover{
-            margin: 20px 2px;
-        }
-    
-        /* footer */
-        .container-contact{
-            width: 95%;
-        }
+
+    ul > li{
+        min-width: 0px;
+        padding: 8px 5px;
+    }
+    .col{
+        padding: 15px 2%;
+    }
+
+    .header-row{
+        font-size: 12px
+    }
+
+    .container{
+        width: 95%
     }
 
 
+    /* slider */
 
+    .inner-slide-d-flex{
+        flex-direction: column-reverse;
+    }
+    .slide1 .slider-col{
+        width: 100%
+    }
+    .slide2 .slider-col{
+        width: 100%
+    }
+    .slide3 .slider-col{
+        width: 100%
+    }
+    
+    /* section services */
 
+    .container-services{
+        width: 95%;
+    }
 
+    h3{
+        font-size: 1.2em;
+    }
 
+    /* section latest work */
+
+    h2{
+        font-size: 1.4em;
+    }
+
+    /* section latest work photo */
+
+    .container-latestwork{
+        justify-content: space-around;
+        width: 95%;
+    }
+    .latestwork-box-photo{
+        margin: 20px 2px;
+    }
+    .latestwork-box-photo:hover{
+        margin: 20px 2px;
+    }
+
+    /* footer */
+
+    .col-footer{
+        width: 30%;
+    }
+    .col-footer:last-child{
+        width: 40%;
+    }
+
+    .container-contact{
+        width: 95%;
+    }
+
+    
+}
 @media (min-width: 576px) and (max-width: 767px){
 
     #menu-burger{
@@ -643,9 +652,7 @@ textarea{
       /* navi */
 
 
-    .d-flex{
-        display: block;
-    }
+    
 
     .slides-container {
         padding: 10px;
@@ -735,10 +742,15 @@ textarea{
 
     .container-services {
         width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .f-justify-content-between{
+        justify-content: space-between;
     }
 
     .col-services {
-        width: 100%;
+        width: 45%;
         margin-bottom: 20px;
     }
 
@@ -746,11 +758,8 @@ textarea{
         width: 100%;
         height: 200px;
     }
-
-    /*section avec ligne et titre "latest work"*/
-    .row.d-flex.f-justify-content-center.f-align-items-center {
-        display: flex;
-    }
+  
+    /*cotenu latest work*/
 
     .container-latestwork {
         width: 90%;
@@ -762,6 +771,10 @@ textarea{
         height: 250px;
         margin: 10px 5px;
     }
+    
+    .line{
+        display: none;
+    }
 
     .hidden {
         width: 100%;
@@ -769,6 +782,16 @@ textarea{
 
     .col-footer{
         width: 66%;
+    }
+
+    h4{
+        margin: 0;
+        padding: 19px;
+    }
+
+    footer input.button{
+        width: 100%;
+        padding: 15px 0;
     }
 
 }
@@ -808,10 +831,30 @@ textarea{
      nav{
          display: none;
          background-color: #290000;
-         width: 85%;
+         width: 100%;
+         left: 0;
+         height: 100%;
      }
 
-     /* navi */
+     ul > li{
+         padding: 5%;
+         border-bottom: 1px solid rgba(163, 85, 85, 0.5);
+     }
+
+    /* navbar */
+
+    ul > li{
+        min-width: 0px;
+        padding: 8px 5px;
+    }
+    .col{
+        padding: 15px 2%;
+    }
+
+     .xs-media-flex{
+         display: flex;
+         justify-content: space-between;
+     }
 
 
     .d-flex{
@@ -832,6 +875,7 @@ textarea{
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        padding-bottom: 35px;
     }
 
     /*---------------------media pour slide1-------------------------------*/
@@ -923,6 +967,10 @@ textarea{
         display: flex;
     }
 
+    .line{
+        display: none;
+    }
+
     .container-latestwork {
         width: 90%;
         display: flex;
@@ -933,8 +981,38 @@ textarea{
         height: 250px;
         margin: 10px 5px;
     }
-
     .hidden {
         width: 100%;
     }
+
+    /*footer 575*/
+    .container-fluid.bg-grey {
+        padding-top: 20px;
+    }
+
+    .container-contact {
+        width: 85%;
+    }
+
+    .col-footer {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    footer input.button{
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    form .text{
+        margin: 12px 0;
+    }
+
+    textarea{
+        margin-bottom: 12px;
+    }
+   
+    
 }
+    
+
