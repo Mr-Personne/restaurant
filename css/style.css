@@ -5,6 +5,11 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+h1 {
+    margin: 0;
+    font-weight: normal;
+}
+
 .container-fluid, .row{
     width: 100%;
     margin: 0;
@@ -54,22 +59,6 @@ a:link, a:visited, a:active{
     margin: 0;
     padding: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* systeme flex */
 
@@ -548,20 +537,20 @@ textarea{
     outline: none;
     text-transform: uppercase;   
 }
-
+.container-fluid-bg-grey2{
+    background-color: #2b2b2b;
+    border-top:#222222 1px solid;
+}
     
-
-
-
 
 /* media queries */
 
 
-@media (min-width: 768px) and (max-width: 991px)
-{
+@media (min-width: 992px) and (max-width: 1200px){
 
-
-    /* navbar */
+}
+@media (min-width: 768px) and (max-width: 991px){   
+        /* navbar */
 
     ul > li{
         min-width: 0px;
@@ -638,3 +627,185 @@ textarea{
     }
     
 }
+@media (min-width: 576px) and (max-width: 767px){
+         
+    
+}
+@media (max-width: 575px)
+{
+    .container{
+        width: 90%;
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+
+    
+
+    #menu-burger{
+        display: inline-block;
+        cursor: pointer;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        border: 1px solid white;
+        opacity: 0.80;
+        border-radius: 10px 10px 10px 10px;
+        /* margin-left: 90%; */
+    
+     }
+
+     nav{
+         display: none;
+         background-color: #290000;
+         width: 85%;
+     }
+
+    /* navbar */
+
+    ul > li{
+        min-width: 0px;
+        padding: 8px 5px;
+    }
+    .col{
+        padding: 15px 2%;
+    }
+
+
+    .d-flex{
+        display: block;
+    }
+
+    .slides-container {
+        padding: 10px;
+    }
+
+    .inner-slide-d-flex{
+        display: none;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .inner-slide-d-flex:first-child{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    /*---------------------media pour slide1-------------------------------*/
+    .slide1 .slider-col{
+        width: 100%;
+    }
+
+    .slide-img1 {
+        background-color: lightgrey;
+        background-image: url(../media/wine-img.jpg);
+        border: 5px solid #6b6b6b;
+        border-radius: 50%;
+        max-width: 380px;
+        height: 380px;
+        color: white;
+        margin: 0 auto;
+    }
+    /*---------------------media pour slide2-------------------------------*/
+    .slide2 .slider-col{
+        width: 100%;
+    }
+
+    .slide-img2 {
+        background-color: lightgrey;
+        background-image: url(../media/fish-img.jpg);
+        border: 5px solid #6b6b6b;
+        border-radius: 50%;
+        max-width: 380px;
+        height: 380px;
+        color: white;
+        margin: 0 auto;
+    }
+
+    /*---------------------media pour slide3-------------------------------*/
+    .slide3 .slider-col{
+        width: 100%;
+    }
+
+    .slide-img3 {
+        background-color: lightgrey;
+        background-image: url(../media/pizza-img.jpg);
+        border: 5px solid #6b6b6b;
+        border-radius: 50%;
+        max-width: 380px;
+        height: 380px;
+        color: white;
+        margin: 0 auto;
+    }
+    /*---------------------media pour slide fin-------------------------------*/
+
+    .slider-title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .slider-text {
+        font-size: 20px;
+        /* width: 81%; */
+        /* text-align: justify; */
+        margin: 0;
+        /* padding-left: 31px; */
+        line-height: 25px;
+    }
+
+    .read-more-button {
+        margin-top: 38px;
+        border-radius: 10px;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+    }
+
+    .container-services {
+        width: 90%;
+    }
+
+    .col-services {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .services-box-photo {
+        width: 100%;
+        height: 200px;
+    }
+
+    /*section avec ligne et titre "latest work"*/
+    .row.d-flex.f-justify-content-center.f-align-items-center {
+        display: flex;
+    }
+
+    .container-latestwork {
+        width: 90%;
+        display: flex;
+    }
+
+    .latestwork-box-photo {
+        width: 100%;
+        height: 250px;
+        margin: 10px 5px;
+    }
+    .hidden {
+        width: 100%;
+    }
+    /* footer */
+
+    .col-footer{
+        width: 30%;
+    }
+    .col-footer:last-child{
+        width: 40%;
+    }
+
+    .container-contact{
+        width: 95%;
+    }
+    
+}
+    
+
