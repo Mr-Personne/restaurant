@@ -653,20 +653,34 @@ textarea{
         border-radius: 10px 10px 10px 10px;
         /* margin-left: 90%; */
     
-     }
+    }
 
-     nav{
+    nav{
          display: none;
          background-color: #290000;
          width: 100%;
          left: 0;
          height: 100%;
-     }
+    }
 
-     ul > li{
+    ul > li{
          padding: 5%;
          border-bottom: 1px solid rgba(163, 85, 85, 0.5);
-     }
+    }
+
+    .meta-active{
+        border-radius: 0;
+        border: none;
+        background-color: #76c38f;
+    }
+   
+    .active{
+       border: 0;
+       background-color: none;
+       border-radius: 0px;
+   }
+
+
 
     /* navbar */
 
@@ -686,6 +700,11 @@ textarea{
 
     .slides-container {
         padding: 10px;
+    }
+
+    #left-button-col, #right-button-col{
+        align-self: flex-start;
+        margin-top: 420px;
     }
 
     .inner-slide-d-flex{
@@ -797,6 +816,7 @@ textarea{
     .container-latestwork {
         width: 90%;
         display: flex;
+        padding-bottom: 10px;
     }
 
     .latestwork-box-photo {
@@ -843,6 +863,7 @@ textarea{
 
     .sous-footer .d-flex{
         display: flex;
+        padding: 15px 0;
     }
    
     
