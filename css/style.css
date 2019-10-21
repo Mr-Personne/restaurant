@@ -591,6 +591,12 @@ textarea{
 }
 @media (min-width: 768px) and (max-width: 991px){   
         /* navbar */
+    #navi {
+            height: 100%;
+            display: block;
+            position: initial;
+    }
+    
 
     ul > li{
         min-width: 0px;
@@ -724,8 +730,7 @@ textarea{
 
 
       /* navi */
-
-
+    
     
 
     .slides-container {
