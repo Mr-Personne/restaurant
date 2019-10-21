@@ -333,7 +333,7 @@ h3{
 
 
 .col-services{
-    margin: 0;
+    margin: 0px;
     padding: 20px;
     width: 23%;
     text-align: center;
@@ -548,6 +548,41 @@ textarea{
 
 @media (min-width: 992px) and (max-width: 1200px){
 
+    .slide-img1{
+        background-color: lightgrey;
+        background-image: url(../media/wine-img.jpg);
+        background-size: cover;
+        background-position: center;
+        border: 30px solid #6b6b6b;
+        border-radius: 50%;
+        width:300px;
+        height: 290px;
+        color: white;
+        margin: 0 auto;
+    }
+    .d-flex-lw {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .latestwork-photo {
+        background-image: url(../media/asia-4466113_1920.jpg);
+    }
+    .latestwork-box-photo {
+        width: 240px;
+        height: 240px;
+        margin: 25px 0px;
+        background-position: center;
+        background-size: cover;
+        border: #ffffff 6px solid;
+    }
+    .col-services {
+        margin: 15px;
+        padding: 40px;
+        width: 33%;
+        text-align: center;
+        box-sizing: border-box;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px){   
         /* navbar */
