@@ -505,7 +505,7 @@ h3{
     margin: 8px 0px;
     box-sizing: border-box;
     background-color: #222222;
-    border: none;
+    border: 2px solid #30303000;
     color: white;
     border-radius: 14px;
     outline: none; 
@@ -517,7 +517,7 @@ textarea{
     margin: 8px 0px;
     box-sizing: border-box;
     background-color: #222222;
-    border: none;
+    border: 2px solid #30303000;
     color: white;
     border-radius: 14px;
     outline: none; 
@@ -588,6 +588,11 @@ textarea{
 
     .container-services{
         width: 95%;
+    }
+
+    .col-services{
+        width: 45%;
+        margin: 15px;
     }
 
     h3{
@@ -843,10 +848,6 @@ textarea{
 
     /* navbar */
 
-    ul > li{
-        min-width: 0px;
-        padding: 8px 5px;
-    }
     .col{
         padding: 15px 2%;
     }
@@ -869,13 +870,13 @@ textarea{
         display: none;
         flex-direction: column-reverse;
         align-items: center;
+        padding-bottom: 35px;
     }
 
     .inner-slide-d-flex:first-child{
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        padding-bottom: 35px;
     }
 
     /*---------------------media pour slide1-------------------------------*/
@@ -1011,8 +1012,18 @@ textarea{
     textarea{
         margin-bottom: 12px;
     }
+
+    .sous-footer p{
+        margin: 0;
+        font-size: 11px;
+        padding-top: 5px;
+    }
+
+    .sous-footer .d-flex{
+        display: flex;
+    }
    
     
 }
-    
+
 
