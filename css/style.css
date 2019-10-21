@@ -10,6 +10,11 @@ h1 {
     font-weight: normal;
 }
 
+#menu-burger{
+    display: none;
+
+ }
+
 .container-fluid, .row{
     width: 100%;
     margin: 0;
@@ -683,10 +688,17 @@ textarea{
     
      }
 
-     .active{
+     .meta-active{
          border-radius: 0;
          border: none;
+         background-color: #76c38f;
      }
+    
+     .active{
+        border: 0;
+        background-color: none;
+        border-radius: 0px;
+    }
 
      nav{
          display: none;
