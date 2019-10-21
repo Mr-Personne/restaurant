@@ -10,6 +10,11 @@ h1 {
     font-weight: normal;
 }
 
+#menu-burger{
+    display: none;
+
+ }
+
 .container-fluid, .row{
     width: 100%;
     margin: 0;
@@ -333,7 +338,7 @@ h3{
 
 
 .col-services{
-    margin: 0;
+    margin: 0px;
     padding: 20px;
     width: 23%;
     text-align: center;
@@ -548,6 +553,41 @@ textarea{
 
 @media (min-width: 992px) and (max-width: 1200px){
 
+    .slide-img1{
+        background-color: lightgrey;
+        background-image: url(../media/wine-img.jpg);
+        background-size: cover;
+        background-position: center;
+        border: 30px solid #6b6b6b;
+        border-radius: 50%;
+        width:300px;
+        height: 290px;
+        color: white;
+        margin: 0 auto;
+    }
+    .d-flex-lw {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .latestwork-photo {
+        background-image: url(../media/asia-4466113_1920.jpg);
+    }
+    .latestwork-box-photo {
+        width: 240px;
+        height: 240px;
+        margin: 25px 0px;
+        background-position: center;
+        background-size: cover;
+        border: #ffffff 6px solid;
+    }
+    .col-services {
+        margin: 30px;
+        padding: 50px;
+        width: 34%;
+        text-align: center;
+        box-sizing: border-box;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px){   
         /* navbar */
@@ -648,10 +688,17 @@ textarea{
     
      }
 
-     .active{
+     .meta-active{
          border-radius: 0;
          border: none;
+         background-color: #76c38f;
      }
+    
+     .active{
+        border: 0;
+        background-color: none;
+        border-radius: 0px;
+    }
 
      nav{
          display: none;
@@ -867,20 +914,34 @@ textarea{
         border-radius: 10px 10px 10px 10px;
         /* margin-left: 90%; */
     
-     }
+    }
 
-     nav{
+    nav{
          display: none;
          background-color: #290000;
          width: 100%;
          left: 0;
          height: 100%;
-     }
+    }
 
-     ul > li{
+    ul > li{
          padding: 5%;
          border-bottom: 1px solid rgba(163, 85, 85, 0.5);
-     }
+    }
+
+    .meta-active{
+        border-radius: 0;
+        border: none;
+        background-color: #76c38f;
+    }
+   
+    .active{
+       border: 0;
+       background-color: none;
+       border-radius: 0px;
+   }
+
+
 
     /* navbar */
 
@@ -900,6 +961,11 @@ textarea{
 
     .slides-container {
         padding: 10px;
+    }
+
+    #left-button-col, #right-button-col{
+        align-self: flex-start;
+        margin-top: 420px;
     }
 
     .inner-slide-d-flex{
@@ -1011,6 +1077,7 @@ textarea{
     .container-latestwork {
         width: 90%;
         display: flex;
+        padding-bottom: 10px;
     }
 
     .latestwork-box-photo {
@@ -1057,6 +1124,7 @@ textarea{
 
     .sous-footer .d-flex{
         display: flex;
+        padding: 15px 0;
     }
    
     
