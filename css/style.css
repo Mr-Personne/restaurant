@@ -648,11 +648,33 @@ textarea{
     
      }
 
+     .active{
+         border-radius: 0;
+         border: none;
+     }
+
      nav{
          display: none;
          background-color: #290000;
-         width: 85%;
+         left: 0;
+         width: 100%;
      }
+
+     ul > li{
+        padding: 5%;
+        border-bottom: 1px solid rgba(163, 85, 85, 0.5);
+    }
+
+    .xs-media-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+     .d-flex{
+        display: block;
+    }
+
 
       /* navi */
 
@@ -660,7 +682,7 @@ textarea{
     
 
     .slides-container {
-        padding: 10px;
+        padding: 10px 10px 45px 10px;
     }
 
     .inner-slide-d-flex{
@@ -755,7 +777,7 @@ textarea{
     }
 
     .col-services {
-        width: 45%;
+        width: 100%;
         margin-bottom: 20px;
     }
 
@@ -769,12 +791,18 @@ textarea{
     .container-latestwork {
         width: 90%;
         display: flex;
+        padding-bottom: 25px;
     }
+
+ /*section avec ligne et titre "latest work"*/
+ .row.d-flex.f-justify-content-center.f-align-items-center {
+    display: flex;
+}
 
     .latestwork-box-photo {
         width: 100%;
         height: 250px;
-        margin: 10px 5px;
+        
     }
     
     .line{
@@ -786,17 +814,25 @@ textarea{
     }
 
     .col-footer{
-        width: 66%;
+        width: 100%;
+    }
+
+    .container-contact{
+        padding-bottom: 40px;
     }
 
     h4{
         margin: 0;
-        padding: 19px;
+        padding-top: 19px;
     }
 
     footer input.button{
         width: 100%;
         padding: 15px 0;
+    }
+
+    .container-fluid-bg-grey2{
+        padding-bottom: 10px;
     }
 
 }
