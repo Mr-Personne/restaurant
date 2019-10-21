@@ -669,9 +669,218 @@ textarea{
     
 }
 @media (min-width: 576px) and (max-width: 767px){
-         
+
+    #menu-burger{
+        display: inline-block;
+        cursor: pointer;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        border: 1px solid white;
+        opacity: 0.80;
+        border-radius: 10px 10px 10px 10px;
+        /* margin-left: 90%; */
     
+     }
+
+     .active{
+         border-radius: 0;
+         border: none;
+     }
+
+     nav{
+         display: none;
+         background-color: #290000;
+         left: 0;
+         width: 100%;
+     }
+
+     ul > li{
+        padding: 5%;
+        border-bottom: 1px solid rgba(163, 85, 85, 0.5);
+    }
+
+    .xs-media-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+     .d-flex{
+        display: block;
+    }
+
+
+      /* navi */
+
+
+    
+
+    .slides-container {
+        padding: 10px 10px 45px 10px;
+    }
+
+    .inner-slide-d-flex{
+        display: none;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .inner-slide-d-flex:first-child{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+      /*---------------------media pour slide1-------------------------------*/
+      .slide1 .slider-col{
+        width: 100%;
+    }
+
+    .slide-img1 {
+        background-color: lightgrey;
+        background-image: url(../media/wine-img.jpg);
+        border: 5px solid #6b6b6b;
+        border-radius: 50%;
+        max-width: 380px;
+        height: 380px;
+        color: white;
+        margin: 0 auto;
+    }
+    /*---------------------media pour slide2-------------------------------*/
+    .slide2 .slider-col{
+        width: 100%;
+    }
+
+    .slide-img2 {
+        background-color: lightgrey;
+        background-image: url(../media/fish-img.jpg);
+        border: 5px solid #6b6b6b;
+        border-radius: 50%;
+        max-width: 380px;
+        height: 380px;
+        color: white;
+        margin: 0 auto;
+    }
+
+    /*---------------------media pour slide3-------------------------------*/
+    .slide3 .slider-col{
+        width: 100%;
+    }
+
+    .slide-img3 {
+        background-color: lightgrey;
+        background-image: url(../media/pizza-img.jpg);
+        border: 5px solid #6b6b6b;
+        border-radius: 50%;
+        max-width: 380px;
+        height: 380px;
+        color: white;
+        margin: 0 auto;
+    }
+    /*---------------------media pour slide fin-------------------------------*/
+    
+    .slider-title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .slider-text {
+        font-size: 20px;
+        /* width: 81%; */
+        /* text-align: justify; */
+        margin: 0;
+        /* padding-left: 31px; */
+        line-height: 25px;
+    }
+
+    .read-more-button {
+        margin-top: 38px;
+        border-radius: 10px;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+    }
+
+    .container-services {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .f-justify-content-between{
+        justify-content: space-between;
+    }
+
+    .col-services {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .services-box-photo {
+        width: 100%;
+        height: 200px;
+    }
+  
+    /*cotenu latest work*/
+
+    .container-latestwork {
+        width: 90%;
+        display: flex;
+        padding-bottom: 25px;
+    }
+
+ /*section avec ligne et titre "latest work"*/
+ .row.d-flex.f-justify-content-center.f-align-items-center {
+    display: flex;
 }
+
+    .latestwork-box-photo {
+        width: 100%;
+        height: 250px;
+        
+    }
+    
+    .line{
+        display: none;
+    }
+
+    .hidden {
+        width: 100%;
+    }
+
+    .col-footer{
+        width: 100%;
+    }
+
+    .container-contact{
+        padding-bottom: 40px;
+    }
+
+    h4{
+        margin: 0;
+        padding-top: 19px;
+    }
+
+    footer input.button{
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    .container-fluid-bg-grey2{
+        padding-bottom: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 575px)
 {
     .container{
