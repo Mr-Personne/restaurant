@@ -553,17 +553,22 @@ textarea{
 
 @media (min-width: 992px) and (max-width: 1200px){
 
+    .slider-text{
+        height: 154px;
+    }
     .slide-img1{
-        background-color: lightgrey;
-        background-image: url(../media/wine-img.jpg);
-        background-size: cover;
-        background-position: center;
-        border: 30px solid #6b6b6b;
-        border-radius: 50%;
         width:300px;
         height: 290px;
-        color: white;
-        margin: 0 auto;
+
+    }
+    .slide-img2{
+        width: 300px;
+        height: 290px;
+
+    }
+    .slide-img3{
+        width: 300px;
+        height: 290px;
     }
     .d-flex-lw {
         display: flex;
