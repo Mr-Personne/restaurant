@@ -882,6 +882,17 @@ textarea{
         padding-bottom: 10px;
     }
 
+    .sous-footer p{
+        margin: 0;
+        font-size: 11px;
+        padding-top: 5px;
+    }
+
+    .sous-footer .d-flex{
+        display: flex;
+        padding: 15px 0;
+    }
+
 }
 
 
