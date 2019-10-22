@@ -737,6 +737,11 @@ textarea{
         padding: 10px 10px 45px 10px;
     }
 
+    #left-button-col, #right-button-col{
+        align-self: flex-start;
+        margin-top: 420px;
+    }
+
     .inner-slide-d-flex{
         display: none;
         flex-direction: column-reverse;
