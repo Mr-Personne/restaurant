@@ -438,14 +438,14 @@ h3{
 .latestwork-box-photo{
     width: 290px;
     height: 190px;
-    margin: 25px 5px;
+    margin: 15px 5px;
     background-position: center;
     background-size: cover;
     border: #ffffff 6px solid;
 }
 .latestwork-box-photo:hover{
     border: #76c38f 6px solid;
-    margin: 25px 5px;
+    margin: 15px 5px;
     cursor: pointer;
 }
 .latestwork-box-photo:hover p{
@@ -576,7 +576,7 @@ textarea{
     .latestwork-box-photo {
         width: 240px;
         height: 240px;
-        margin: 25px 0px;
+        margin: 15px 5px;
         background-position: center;
         background-size: cover;
         border: #ffffff 6px solid;
@@ -652,10 +652,10 @@ textarea{
         width: 95%;
     }
     .latestwork-box-photo{
-        margin: 20px 2px;
+        margin: 15px 5px;
     }
     .latestwork-box-photo:hover{
-        margin: 20px 2px;
+        margin: 15px 5px;
     }
 
     /* footer */
@@ -1083,7 +1083,7 @@ textarea{
     .latestwork-box-photo {
         width: 100%;
         height: 250px;
-        margin: 10px 5px;
+        margin: 15px 5px;
     }
     .hidden {
         width: 100%;
