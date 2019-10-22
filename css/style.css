@@ -672,10 +672,10 @@ textarea{
     /* footer */
 
     .col-footer{
-        width: 30%;
+        width: 45%;
     }
     .col-footer:last-child{
-        width: 40%;
+        width: 45%;
     }
 
     .container-contact{
