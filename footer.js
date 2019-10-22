@@ -2,7 +2,7 @@ function surligne(champ, erreur) {
     if (erreur)
         champ.style.border = "#fa2020 solid 2px";
     else
-        champ.style.border = "";
+        champ.style.border = "green solid 2px";
 }
 
 function verifPseudo(champ) {
