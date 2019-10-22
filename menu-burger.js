@@ -36,3 +36,23 @@ function openNav(){
     
     //alert("burger");
 }
+
+
+function menuRotateCheck() {
+    var navMenu = document.querySelector("#navi");
+    //calcule width de la fenetre pour savoir quel style il faut appliquer dans le onresize
+    var screenWidth = screen.width;
+    if (screenWidth >= 768) {
+        console.log("rotate width ", screenWidth);
+        navMenu.style.display = "block";
+        navMenu.style.position = "initial";
+        navMenu.style.height = "100%";
+    }
+    else {
+        console.log("rotate width ", screenWidth);
+        navMenu.style.display = "none";
+        //applique taille navHeight au css du nav
+        navMenu.style.height = navHeight + "px";
+        navMenu.style.position = "absolute";
+    }
+}
